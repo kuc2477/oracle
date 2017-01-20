@@ -1,6 +1,6 @@
 Oracle 
 ======
-![example]('https://github.com/kuc2477/oracle/blob/master/example.png?raw=true')  
+![example]('https://raw.githubusercontent.com/kuc2477/oracle/master/example.png')  
 여러분들의 상사가 오늘 출근할 지 신탁을 내려드리겠습니다
 
 
