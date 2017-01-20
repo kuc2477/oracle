@@ -19,12 +19,12 @@ from constants import (
 # ===========
 
 def parse_dates(lines):
-    return [l.split(',')[0].split(' ')[0] for l in lines]
+    return [l.split(',')[0].split(' ')[0] for l in lines if l.startswith('2')]
 
 
-def normalize_time(hours, minutes):
+def normalize_time(hour, minutes=0):
     return (
-        ((hours - WORKING_TIME_START) * 60 + minutes) / 
+        ((hour - WORKING_TIME_START) * 60 + minutes) / 
         WORKING_TIME_TOTAL_MINUTES
     )
 
